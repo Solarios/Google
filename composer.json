@@ -1,0 +1,16 @@
+{
+    "name": "solarios/google",
+    "description": "Google API bridge for Laravel 5",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "google/apiclient": "^1.1",
+        "graham-campbell/manager": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solarios\\Google\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
